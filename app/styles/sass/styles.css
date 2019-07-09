@@ -1717,7 +1717,7 @@ html {
 
 /* line 27, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #555555;
@@ -1852,7 +1852,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #999999;
+  color: #666666;
 }
 
 /* line 24, ../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
