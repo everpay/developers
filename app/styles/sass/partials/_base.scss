@@ -20,9 +20,9 @@ body {
 
 .full-color-bg {
   // needs latest Compass, add '@import "compass"' to your scss
-  background-color: #0a0809; // Old browsers
-  @include filter-gradient(#0a0809, #2d2f30, horizontal); // IE6-9 fallback on horizontal gradient
-  @include background-image(linear-gradient(left top,  #0a0809 0%,#2d2f30 100%));
+  background-color: #FEFEFE; // Old browsers
+  @include filter-gradient(#FEFEFE, #FFFFFF, horizontal); // IE6-9 fallback on horizontal gradient
+  @include background-image(linear-gradient(left top,  #FFFFFF 0%,#FEFEFE 100%));
 
   z-index: -1;
   position: fixed;
@@ -86,7 +86,7 @@ body {
 
   text-align: right;
   color: white;
-  background: $gray-dark;
+  background: $brand-white;
   padding: 10px 15px 11px;
   margin-bottom: 10px;
 
@@ -141,7 +141,7 @@ body {
   left:0;
   right:0;
   height: $navbar-height;
-  background: rgba(0, 0, 0, .7);
+  background: #ffffff;
   z-index: 1031;
   display: none;
 
