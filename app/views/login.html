@@ -1,13 +1,25 @@
 <style>
- .navbar .navbar-default .navbar-fixed-top. df-top-navbar{
-   display: none;
+.df-top-navbar {
+   display: none!important;
   }
 </style>
 
-<div class="full-color-bg"></div>
+<main id="content" role="main">
+    <!-- Login Form -->
+    <div class="container space-2">
+        <!-- Title -->
+        <div class="mb-7">
+          <h2 class="h3 text-primary font-weight-normal mb-0">Welcome <span class="font-weight-semi-bold">back</span></h2>
+          <p>Login to manage your account.</p>
+        </div>
+        
 
+<dreamfactory-user-login data-options="loginOptions"></dreamfactory-user-login><!-- End Title -->
 
-<dreamfactory-user-login data-options="loginOptions"></dreamfactory-user-login>
+        
+    </div>
+    <!-- End Login Form -->
+  </main>
 
 <!-- Display admin application version -->
 <df-copyright-footer></df-copyright-footer>
