@@ -32,7 +32,7 @@ angular
     .service('INSTANCE_URL', ['INSTANCE_BASE_URL', 'INSTANCE_API_PREFIX', function (INSTANCE_BASE_URL, INSTANCE_API_PREFIX) { this.url = INSTANCE_BASE_URL + INSTANCE_API_PREFIX;}])
 
     // Set API key for this application, also used by df-swagger-ui
-    .constant('APP_API_KEY', '36fda24fe5588fa4285ac6c6c2fdfbdb6b6bc9834699774c9bf777f706d05a88')
+    .constant('APP_API_KEY', '48b209a5bbb397f65ad69b7581519c39947b3b28da64392ed70dbb173af174a3')
 
     // Set global header for calls made to DreamFactory instance
     .config(['$httpProvider', 'APP_API_KEY', function($httpProvider, APP_API_KEY) {
