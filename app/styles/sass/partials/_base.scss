@@ -85,7 +85,7 @@ body {
 .df-section-header {
 
   text-align: right;
-  color: white;
+  color: $brand-grey;
   background: $brand-white;
   padding: 10px 15px 11px;
   margin-bottom: 10px;
@@ -154,7 +154,7 @@ body {
   right: 0;
   z-index: 1031;
   color: $brand-grey-light;
-  background: $brand-grey;
+  background: $brand-white;
 }
 
 .df-footer-text {
