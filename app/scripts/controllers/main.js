@@ -17,7 +17,7 @@ angular.module('dreamfactoryApidocsApp')
             // https://github.com/angular/angular.js/issues/14015
             $animate.enabled(false);
 
-            $scope.title = 'DreamFactory API Docs';
+            $scope.title = 'Everpay Developer Portal';
 
             $scope.adminApp = dfApplicationData.getQueryParameter("admin_app");
             if ($scope.adminApp) {
