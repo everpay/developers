@@ -3,4 +3,9 @@
 # Redirect default Netlify subdomain to primary domain
 https://everpay-developer.netlify.com/* https://developer.everpayinc.com/:splat 301!
 
-/*  /index.html 200
+
+# COMMENT: This a rule for Single Page Applications
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
